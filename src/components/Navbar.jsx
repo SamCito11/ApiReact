@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 const NavBar = ({ isLoggedIn, handleLogout }) => {
     return (
         <nav className="navbar navbar-expand-lg">
@@ -39,5 +38,4 @@ const NavBar = ({ isLoggedIn, handleLogout }) => {
         </nav>
     );
 };
-
 export default NavBar;
