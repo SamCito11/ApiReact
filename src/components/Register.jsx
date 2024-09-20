@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/usuarios'; // Cambia esto a la URL de tu API
+const API_URL = 'https://apibanco-lcud.onrender.com/usuarios'; // Cambia esto a la URL de tu API
 
 const Register = () => {
     const [nombreUsuario, setNombreUsuario] = useState('');
